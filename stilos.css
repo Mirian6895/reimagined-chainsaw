@@ -1,0 +1,83 @@
+/*Selector universal*  */
+/*https://cdnjs.com/libraries/font-awesome extencion para iconos*/
+/*https://fontawesome.com/icons/closed-captioning?s=regular descargar iconos*/
+body {
+  margin: 0;
+  /*para que el color rellene todo*/
+  padding: 0;
+}
+
+body {
+  /*propiedades de la imagen */
+  background-image: url("https://www.vuelaviajes.com/wp-content/2017/05/Parque-Nacional-Banff1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /*para que la imagen se mantenga fija con el texto */
+    /*Estilos de encabezado */
+}
+header {
+  background-color: darkgreen;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*Estilos para el logo*/
+.logo {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+/*Estilos para el contenedor principal*/
+main {
+  top: 150px;
+  background-color: rgba(
+    211,
+    211,
+    232,
+    0.736
+  ); /*Transparencia manejando en la barra de color*/
+  box-shadow: 2px 5px 20px;
+  position: relative; /*Ajuste al tamaño del contenedor*/
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*Estilos para la etiqueta nav*/
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li a:hover {
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+  color: yellow;
+  display: block;
+}
+
+.letracapital::first-letter {
+  font-size: 50px;
+  font-weight: bold;
+  color: maroon;
+  margin: 10px;
+}
+section article p {
+  text-align: justify;
+  font-size: 20px;
+  margin: 20px;
+}
+section h1,
+article h2 {
+  text-align: center;
+  border-bottom: 2px solid rgb(21, 49, 19);
+}
